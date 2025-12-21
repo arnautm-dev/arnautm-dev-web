@@ -9,84 +9,93 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
         <h1 class="nav-title">ArnauTM.dev</h1>
     </header>
     <main class="introduction">
-        <p>Hola, sóc l'Arnau.</p>
-        <h1>Junior Developer</h1>
-        <p>Desenvolupo webs i apps estètiques per als meus clients. Ara estic aprenent js i Kotlin.</p>
-        <a href="">Observa el meu treball</a>
-        <a href="">GitHub</a>
-        <a href="">Linkedin</a>
-        <a href="">Mail</a>
+        <p id="introduction-intro">Hola, sóc l'Arnau.</p>
+        <p id="introduction-title">Junior Developer</p>
+        <p id="introducion-msg">Desenvolupo webs i apps estètiques per als meus clients. Ara estic aprenent js i Kotlin.</p>
+        <div id="links">
+            <a href="#projects" id="myWork">Observa el meu treball</a>
+            <div id="social">
+                <a href="https://github.com/arnautm-dev"><i class="fab fa-github"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:arnautm-dev@proton.me"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
     </main>
     <section class="skills">
-        <h2>Aprenentatge</h2>
-        <p class="sub">Tecnologies que estic treballant.</p>
-        <div class="skill-item">
-            <img src="" alt="html-logo" class="skill-logo">
-            <h3 class="skill-title">HTML</h3>
-            <p class="skill-level">Advanced</p>
-        </div>
-        <div class="skill-item">
-            <img src="" alt="css-logo" class="skill-logo">
-            <h3 class="skill-title">CSS</h3>
-            <p class="skill-level">High</p>
-        </div>
-        <div class="skill-item">
-            <img src="" alt="js-logo" class="skill-logo">
-            <h3 class="skill-title">JavaScript</h3>
-            <p class="skill-level">Basics</p>
-        </div>
-        <div class="skill-item">
-            <img src="" alt="md-logo" class="skill-logo">
-            <h3 class="skill-title">MD</h3>
-            <p class="skill-level">Learning</p>
-        </div>
-    </section>
-    <section class="projects">
-        <h2>Projectes</h2>
-        <div class="project-item">
-            <img src="" alt="project-img" class="project-img">
-            <h3 class="project-title">Projecte</h3>
-            <p class="project-description"></p>
-            <div class="project-technologies">
-                <strong class="project-tech-item">HTML</strong>
-                <strong class="project-tech-item">CSS</strong>
-                <strong class="project-tech-item">js</strong>
+        <div id="learning-container">
+            <h2>Aprenentatge</h2>
+            <p class="sub">Tecnologies que estic treballant.</p>
+            <div class="skill-item">
+                <img src="assets/html-logo.png" alt="html-logo" class="skill-logo">
+                <h3 class="skill-title">HTML</h3>
+                <p class="skill-level">Avançat</p>
+            </div>
+            <div class="skill-item">
+                <img src="assets/css-logo.png" alt="css-logo" class="skill-logo">
+                <h3 class="skill-title">CSS</h3>
+                <p class="skill-level">Mitjà</p>
+            </div>
+            <div class="skill-item">
+                <img src="assets/js-logo.png" alt="js-logo" class="skill-logo">
+                <h3 class="skill-title">JavaScript</h3>
+                <p class="skill-level">Bàsics</p>
+            </div>
+            <div class="skill-item">
+                <img src="assets/md-logo.png" alt="md-logo" class="skill-logo">
+                <h3 class="skill-title">MD</h3>
+                <p class="skill-level">Fonaments</p>
             </div>
         </div>
-        <div class="project-item">
-            <img src="" alt="project-img" class="project-img">
-            <h3 class="project-title">Projecte</h3>
-            <p class="project-description"></p>
-            <div class="project-technologies">
-                <strong class="project-tech-item">HTML</strong>
-                <strong class="project-tech-item">CSS</strong>
-                <strong class="project-tech-item">js</strong>
+        </section>
+        <section class="projects" id="projects">
+            <div id="projects-container">
+                <h2 id="projects-title">Projectes</h2>
+                <div class="project-item">
+                    <img src="assets/default.png" alt="project-img" class="project-img">
+                    <h3 class="project-title"><a href="">Project</a></h3>
+                    <p class="project-description"></p>
+                    <div class="project-technologies">
+                        <strong class="project-tech-item">HTML</strong>
+                        <strong class="project-tech-item">CSS</strong>
+                        <strong class="project-tech-item">js</strong>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="assets/default.png" alt="project-img" class="project-img">
+                    <h3 class="project-title"><a href="">Project</a></h3>
+                    <p class="project-description"></p>
+                    <div class="project-technologies">
+                        <strong class="project-tech-item">HTML</strong>
+                        <strong class="project-tech-item">CSS</strong>
+                        <strong class="project-tech-item">js</strong>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="assets/default.png" alt="project-img" class="project-img">
+                    <h3 class="project-title"><a href="">Project</a></h3>
+                    <p class="project-description"></p>
+                    <div class="project-technologies">
+                        <strong class="project-tech-item">HTML</strong>
+                        <strong class="project-tech-item">CSS</strong>
+                        <strong class="project-tech-item">js</strong>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="project-item">
-            <img src="" alt="project-img" class="project-img">
-            <h3 class="project-title">Projecte</h3>
-            <p class="project-description"></p>
-            <div class="project-technologies">
-                <strong class="project-tech-item">HTML</strong>
-                <strong class="project-tech-item">CSS</strong>
-                <strong class="project-tech-item">js</strong>
-            </div>
-        </div>
     </section>
     <section class="contact">
         <h2>Contacta amb mi</h2>
         <p>Actualment estic buscant noves oportunitats. Si tens una pregunta o només vols saludar, faré el possible per respondre't!</p>
-        <a href="mailto:arnautm-dev@proton.me">Saludar</a>
+        <a href="mailto:arnautm-dev@proton.me" id="sendMail">Saludar</a>
     </section>
     <footer>
-        <p class="sub">@ 2025 ArnauTM.</p>
+        <p class="sub">&copy; 2025 ArnauTM.</p>
     </footer>
 </body>
 </html>
