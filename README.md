@@ -23,14 +23,15 @@ project/
 ├── styles.css
 ├── README.md
 ├── assets/
-│   ├── logos/
-│   └── projects/
+│ ├── logos/
+│ └── projects/
 ├── pages/
-│   ├── projects-home.html
-│   └── projects.html
+│ ├── projects-home.html
+│ └── projects.html
 └── news/
-    ├── articles.html
-    └── assets/
+├── articles.html
+└── assets/
+
 
 ---
 
