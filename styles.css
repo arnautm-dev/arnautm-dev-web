@@ -16,8 +16,10 @@ body{
     padding-top: 10px;
 }
 
+
 header {
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     background-color: #ffffffcc;
     backdrop-filter: blur(10px);
