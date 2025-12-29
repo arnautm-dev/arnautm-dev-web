@@ -50,7 +50,7 @@ strong {
 #introduction-intro {
     color: var(--strong-color);
     margin-left: 20px;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 #introduction-title {
@@ -176,7 +176,7 @@ h2{
     color: var(--title-colour);
 }
 
-.project-item:hover .project-title, .project-item:hover a {
+.project-item:hover .project-title, .project-item:hover a, .newProject-item:hover .project-title {
     color: var(--strong-color);
     transition: all 0.5s ease-out;
 }
@@ -263,7 +263,7 @@ footer{
 }
 
 
-#moreProjects {
+#moreProjects, #newProjects {
     text-decoration: none;
     margin-left: 20px;
     margin-top: 800px;
@@ -277,8 +277,9 @@ footer{
     margin-bottom: 50px;
 }
 
-#moreProjects:hover{
+#moreProjects:hover, #newProjects:hover{
     font-weight: 800;
+    font-size: large;
     transition: all 0.3s ease-out;
 }
 
@@ -329,4 +330,27 @@ footer{
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+#myNewProjects {
+    margin-left: 20px;
+}
+
+.newProject-item{
+    padding: 20px;
+    background-color: var(--background-dark);
+    border-radius: 20px;
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.newProject-item:hover{
+    transition: all 0.5s ease-out;
+    scale: 1.1;
 }
