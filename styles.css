@@ -8,14 +8,28 @@
 
     --title-size: 100px;
     --nav-size: x-large;
+
+    transition: all 0.8s ease-in-out;
 }
 
 body{
     font-family: Mulish;
     margin: 0;
     padding-top: 10px;
+    scroll-behavior: smooth;
+    transition: all 0.8s ease-in-out;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: pageEnter 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
+@keyframes pageEnter {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 header {
     position: fixed;
@@ -41,6 +55,7 @@ strong {
     color: var(--strong-color);
     font-size: var(--nav-size);
     margin-left: 20px;
+    text-decoration: none;
 }
 
 .introduction {
