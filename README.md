@@ -1,105 +1,41 @@
 # arnautm-dev website
 
-This is my portfolio web. I am creating it with a target that you can see in my [wiki](https://github.com/arnautm-dev/arnautm-dev-web/wiki/Target-model).
+This is my portfolio web. I have created it with an AI generated website target. [Look the model here](https://appgen.com/share/47afcf84-c025-44e1-8643-a7ee9034b822). i didn't copy it because it isn't in HTML.
 
 ## Languages
+I have used HTML5 and CSS3. There is no any JavaScript part of code in this web, wich mades easier to personalize it.
 
-I am using HTML, CSS and a little bit of JavaScript
-
-## Base code
-I am based in an AI generated website. [Look it here](https://appgen.com/share/47afcf84-c025-44e1-8643-a7ee9034b822).
-This is the base HTML code:
-```HTML
-<!DOCTYPE html>
-<html lang="ca">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ArnauTM-dev</title>
-
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <h1 class="nav-title">ArnauTM.dev</h1>
-    </header>
-    <main class="introduction">
-        <p>Hola, sóc l'Arnau.</p>
-        <h1>Junior Developer</h1>
-        <p>Desenvolupo webs i apps estètiques per als meus clients. Ara estic aprenent js i Kotlin.</p>
-        <a href="">Observa el meu treball</a>
-        <a href="">GitHub</a>
-        <a href="">Linkedin</a>
-        <a href="">Mail</a>
-    </main>
-    <section class="skills">
-        <h2>Aprenentatge</h2>
-        <p class="sub">Tecnologies que estic treballant.</p>
-        <div class="skill-item">
-            <img src="" alt="html-logo" class="skill-logo">
-            <h3 class="skill-title">HTML</h3>
-            <p class="skill-level">Advanced</p>
-        </div>
-        <div class="skill-item">
-            <img src="" alt="css-logo" class="skill-logo">
-            <h3 class="skill-title">CSS</h3>
-            <p class="skill-level">High</p>
-        </div>
-        <div class="skill-item">
-            <img src="" alt="js-logo" class="skill-logo">
-            <h3 class="skill-title">JavaScript</h3>
-            <p class="skill-level">Basics</p>
-        </div>
-        <div class="skill-item">
-            <img src="" alt="md-logo" class="skill-logo">
-            <h3 class="skill-title">MD</h3>
-            <p class="skill-level">Learning</p>
-        </div>
-    </section>
-    <section class="projects">
-        <h2>Projectes</h2>
-        <div class="project-item">
-            <img src="" alt="project-img" class="project-img">
-            <h3 class="project-title">Projecte</h3>
-            <p class="project-description"></p>
-            <div class="project-technologies">
-                <strong class="project-tech-item">HTML</strong>
-                <strong class="project-tech-item">CSS</strong>
-                <strong class="project-tech-item">js</strong>
-            </div>
-        </div>
-        <div class="project-item">
-            <img src="" alt="project-img" class="project-img">
-            <h3 class="project-title">Projecte</h3>
-            <p class="project-description"></p>
-            <div class="project-technologies">
-                <strong class="project-tech-item">HTML</strong>
-                <strong class="project-tech-item">CSS</strong>
-                <strong class="project-tech-item">js</strong>
-            </div>
-        </div>
-        <div class="project-item">
-            <img src="" alt="project-img" class="project-img">
-            <h3 class="project-title">Projecte</h3>
-            <p class="project-description"></p>
-            <div class="project-technologies">
-                <strong class="project-tech-item">HTML</strong>
-                <strong class="project-tech-item">CSS</strong>
-                <strong class="project-tech-item">js</strong>
-            </div>
-        </div>
-    </section>
-    <section class="contact">
-        <h2>Contacta amb mi</h2>
-        <p>Actualment estic buscant noves oportunitats. Si tens una pregunta o només vols saludar, faré el possible per respondre't!</p>
-        <a href="mailto:arnautm-dev@proton.me">Saludar</a>
-    </section>
-    <footer>
-        <p class="sub">@ 2025 ArnauTM.</p>
-    </footer>
-</body>
-</html>
+## Structure
+This is the web structure
 ```
+project
+├── index.html
+├── styles.css
+├── README.md
+├── assets
+│        └── logos
+├── projects
+│        ├── projects-home.html
+│        └── projects-img
+│              └── projects covers
+└── news
+    ├── news-home.html
+    ├── articles
+    └── articles-assets
+            └── articles extra-content
+```
+## Design
+The colours I have used are these ones:
+-    White background: ```#ffffff```
+-    Darker background: ```#f7fafc```
+-    Title colour: ```#0f172a```
+-    Simple text colour: ```#525569```
+-    Strong text colour: ```#4f46e5```
+-    Strong background: ```#f1f5f9```
+
+In the other hand, the font of that web it's [Mulish](https://fonts.google.com/specimen/Mulish), connected from Google Fonts. The icons are from [Font Awesome](https://fontawesome.com/icons), recommended to me by ChatGPT: I liked it.
+
+## View the work
+You can see the final work at https://arnautm-dev.netlify.app. To save it localy, you can download the newest version at GitHub.
+
+<a href="https://arnautm-dev.netlify.app">Arnautm-dev website</a> © 2025 by <a href="https://arnautm-dev.netlify.app">Arnau TM.</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:0.1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:0.1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:0.1em;margin-left: .2em;">
