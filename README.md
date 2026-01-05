@@ -3,7 +3,7 @@
 This is my portfolio web. I have created it with an AI generated website target. [Look the model here](https://appgen.com/share/47afcf84-c025-44e1-8643-a7ee9034b822). i didn't copy it because it isn't in HTML.
 
 ## Languages
-I have used HTML5 and CSS3. There is no any JavaScript part of code in this web, wich mades easier to personalize it.
+I have used HTML5 and CSS3. There is only a little JavaScript part for injecting the header and the footer.
 
 ## Structure
 This is the web structure
