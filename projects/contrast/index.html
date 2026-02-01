@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <!-- Credits to claude.ai -->
+    <title>Color Contrast Checker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="app">
+
+    <header class="header">
+        <h1 id="title"></h1>
+        <p id="subtitle"></p>
+    </header>
+
+    <main class="responsive-container">
+
+        <!-- LEFT -->
+        <section class="left-section">
+
+            <div class="color-grid">
+                <div>
+                    <label id="textColorLabel"></label>
+                    <div class="color-input">
+                        <input id="textColorInput" type="text">
+                        <input id="textColorPicker" type="color">
+                        <span id="textColorPreview"></span>
+                    </div>
+                </div>
+
+                <div>
+                    <label id="backgroundColorLabel"></label>
+                    <div class="color-input">
+                        <input id="backgroundColorInput" type="text">
+                        <input id="backgroundColorPicker" type="color">
+                        <span id="backgroundColorPreview"></span>
+                    </div>
+                </div>
+            </div>
+
+            <h3 id="livePreviewTitle"></h3>
+
+            <div id="previewBox" class="preview-box">
+                <h1 id="previewHeading"></h1>
+                <p id="previewParagraph1"></p>
+                <p id="previewParagraph2"></p>
+                <p id="previewParagraph3" class="small-text"></p>
+            </div>
+
+        </section>
+
+        <div class="separator"></div>
+
+        <!-- RIGHT -->
+        <section class="right-section">
+
+            <div class="ratio-box">
+                <div id="contrastRatio" class="ratio-value"></div>
+                <span id="contrastRatioLabel"></span>
+            </div>
+
+            <h4 id="accessibilityStandardsTitle"></h4>
+
+            <div class="tests">
+                <div class="test"><span id="largeTextAA"></span><span id="largeAAResult"></span></div>
+                <div class="test"><span id="largeTextAAA"></span><span id="largeAAAResult"></span></div>
+                <div class="test"><span id="normalTextAAA"></span><span id="normalAAAResult"></span></div>
+                <div class="test"><span id="normalTextAA"></span><span id="normalAAResult"></span></div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>
+          <span id="footerText"></span>
+        </p>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

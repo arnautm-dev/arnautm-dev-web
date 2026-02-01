@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    --circle-color: #2db73d;
+}
+
+body{
+    background: var(--circle-color) ;
+    background: radial-gradient(circle, var(--circle-color) 0%, var(--circle-color) 79%, #1c1c1c 79%, #1c1c1c 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.data span{
+    font-weight: 600;
+}
+
+.temporizer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.xifra{
+    line-height: 1;
+}
+
+.num{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+.num.descens {
+    animation: descens 0.6s ease-in-out;
+}
+
+@keyframes descens {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes cop {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.final-message {
+    animation: cop 0.6s ease-out;
+}
+
+@media (width < 550px) {
+    .temporizer{
+        display: flex;
+        flex-direction: column;
+        gap: .7rem;
+    }
+}
