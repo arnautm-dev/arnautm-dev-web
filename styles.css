@@ -31,6 +31,10 @@ body{
     }
 }
 
+#site-header{
+    position: fixed;
+}
+
 header {
     position: fixed;
     width: 100%;
