@@ -297,8 +297,8 @@ footer{
 }
 
 #moreProjects:hover, #newProjects:hover{
-    font-weight: 800;
-    font-size: large;
+    font-weight: 700;
+    background-color: var(--strong-color);
     transition: all 0.3s ease-out;
 }
 
