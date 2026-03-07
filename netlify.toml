@@ -2,8 +2,3 @@
   from = "/projects"
   to = "/projects/projects-home.html"
   status = 301
-
-[[redirects]]
-  from = "/news"
-  to = "/news/news-home.html"
-  status = 301
